@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Projects | Shahzaib</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial,sans-serif;
+    background:#07111f;
+    color:white;
+    line-height:1.7;
+}
+
+header{
+    background:#091626;
+    border-bottom:1px solid #20344d;
+    padding:22px 8%;
+    position:sticky;
+    top:0;
+    z-index:10;
+}
+
+nav{
+    max-width:1150px;
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    font-size:25px;
+    font-weight:bold;
+}
+
+.logo span{
+    color:#38bdf8;
+}
+
+nav ul{
+    display:flex;
+    gap:30px;
+    list-style:none;
+}
+
+nav a{
+    color:#a9b8ca;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#38bdf8;
+}
+
+.container{
+    max-width:1150px;
+    margin:auto;
+    padding:90px 25px;
+}
+
+.label{
+    color:#38bdf8;
+    font-weight:bold;
+    letter-spacing:3px;
+}
+
+h1{
+    font-size:55px;
+    margin:10px 0;
+}
+
+.description{
+    color:#9db0c7;
+    max-width:700px;
+    margin-bottom:45px;
+}
+
+.projects{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:25px;
+}
+
+.project{
+    background:linear-gradient(145deg,#10233b,#0b192a);
+    border:1px solid #20344d;
+    padding:30px;
+    border-radius:20px;
+    transition:.3s;
+}
+
+.project:hover{
+    transform:translateY(-8px);
+    border-color:#38bdf8;
+}
+
+.project-icon{
+    font-size:45px;
+    margin-bottom:20px;
+}
+
+.project h2{
+    margin-bottom:12px;
+}
+
+.project p{
+    color:#9db0c7;
+}
+
+.tech{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    margin:20px 0;
+}
+
+.tech span{
+    background:#172b42;
+    color:#38bdf8;
+    padding:5px 10px;
+    border-radius:20px;
+    font-size:12px;
+}
+
+.github{
+    display:inline-block;
+    margin-top:10px;
+    background:linear-gradient(135deg,#8b5cf6,#38bdf8);
+    color:white;
+    text-decoration:none;
+    padding:10px 17px;
+    border-radius:8px;
+    font-weight:bold;
+}
+
+footer{
+    text-align:center;
+    padding:30px;
+    border-top:1px solid #20344d;
+    color:#8da0b5;
+}
+
+@media(max-width:800px){
+
+    .projects{
+        grid-template-columns:1fr;
+    }
+
+    nav ul{
+        gap:12px;
+        font-size:12px;
+    }
+
+    h1{
+        font-size:42px;
+    }
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<nav>
+
+<div class="logo">
+Shahzaib<span>.</span>
+</div>
+
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="projects.html">Projects</a></li>
+</ul>
+
+</nav>
+
+</header>
+
+
+<main class="container">
+
+<div class="label">
+02 — MY WORK
+</div>
+
+<h1>
+Featured Projects
+</h1>
+
+<p class="description">
+Here are some of the software and Computer Science projects
+I am working on or developing as part of my learning journey.
+</p>
+
+
+<div class="projects">
+
+
+<!-- PROJECT 1 -->
+
+<div class="project">
+
+<div class="project-icon">
+🎓
+</div>
+
+<h2>
+Student ID Card Management System
+</h2>
+
+<p>
+A C++ based student management system designed to register
+students, generate student IDs, manage records and handle
+student card information.
+</p>
+
+<div class="tech">
+<span>C++</span>
+<span>File Handling</span>
+<span>OOP</span>
+</div>
+
+<a href="https://github.com/"
+target="_blank"
+class="github">
+View on GitHub →
+</a>
+
+</div>
+
+
+<!-- PROJECT 2 -->
+
+<div class="project">
+
+<div class="project-icon">
+⌨️
+</div>
+
+<h2>
+TypingMasterAI
+</h2>
+
+<p>
+A typing practice application designed to measure typing
+speed, accuracy, correct words and incorrect words while
+helping users improve their typing performance.
+</p>
+
+<div class="tech">
+<span>Python</span>
+<span>GUI</span>
+<span>Database</span>
+</div>
+
+<a href="https://github.com/"
+target="_blank"
+class="github">
+View on GitHub →
+</a>
+
+</div>
+
+
+<!-- PROJECT 3 -->
+
+<div class="project">
+
+<div class="project-icon">
+🌐
+</div>
+
+<h2>
+Network Routing Simulator
+</h2>
+
+<p>
+A Computer Networks project designed to simulate routers
+and network links, calculate shortest paths and demonstrate
+routing algorithms and link failures.
+</p>
+
+<div class="tech">
+<span>Java</span>
+<span>Networking</span>
+<span>Algorithms</span>
+</div>
+
+<a href="https://github.com/"
+target="_blank"
+class="github">
+View on GitHub →
+</a>
+
+</div>
+
+
+<!-- PROJECT 4 -->
+
+<div class="project">
+
+<div class="project-icon">
+📚
+</div>
+
+<h2>
+Data Structures Projects
+</h2>
+
+<p>
+Implementation and practice of linked lists, doubly linked
+lists, circular linked lists, stacks, queues and algorithms.
+</p>
+
+<div class="tech">
+<span>Java</span>
+<span>DSA</span>
+<span>Algorithms</span>
+</div>
+
+<a href="https://github.com/"
+target="_blank"
+class="github">
+View on GitHub →
+</a>
+
+</div>
+
+
+<!-- PROJECT 5 -->
+
+<div class="project">
+
+<div class="project-icon">
+☕
+</div>
+
+<h2>
+Java OOP Applications
+</h2>
+
+<p>
+Object-oriented programming applications using classes,
+objects, inheritance, encapsulation, polymorphism and GUI
+development.
+</p>
+
+<div class="tech">
+<span>Java</span>
+<span>OOP</span>
+<span>Swing</span>
+</div>
+
+<a href="https://github.com/"
+target="_blank"
+class="github">
+View on GitHub →
+</a>
+
+</div>
+
+
+<!-- PROJECT 6 -->
+
+<div class="project">
+
+<div class="project-icon">
+🌍
+</div>
+
+<h2>
+Personal Portfolio</h2>
+
+<p>
+This responsive portfolio website showcasing my education,
+skills, projects and Computer Science journey.
+</p>
+
+<div class="tech">
+<span>HTML</span>
+<span>CSS</span>
+<span>GitHub Pages</span>
+</div>
+
+<a href="https://github.com/"
+target="_blank"
+class="github">
+View on GitHub →
+</a>
+
+</div>
+
+</div>
+
+</main>
+
+
+<footer>
+
+© 2026 Shahzaib Ullah Khattak · Computer Science Student
+
+</footer>
+
+</body>
+</html>
